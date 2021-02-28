@@ -1,3 +1,15 @@
+/* GENERAL STYLES */
+
+body {
+  margin: 0;
+}
+
+.containter {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* NAVIGATION STYLES */
 .nav-wrapper {
   display: flex;
   justify-content: space-between;
@@ -22,12 +34,42 @@
   text-transform: uppercase;
 }
 
+.nav-link-wrapper {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5 s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid yellow;
+  /* transition: color 0.5 s; */
+}
+
 .nav-link-wrapper a {
   color: white;
   text-decoration: none;
-  transition: color 2s;
+  transition: color 0.5 s;
 }
 
 .nav-link-wrapper a:hover {
   color: yellow;
+}
+
+/* CONTENT STYLES:  */
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+  border: 1px solid black;
+}
+
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border: 1px solid black;
 }
