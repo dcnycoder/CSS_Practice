@@ -1,0 +1,33 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+  background-color:lightslategray;
+}
+
+.left-side {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+.right-side {
+  /* border: 1px solid black; */
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  height: 22px;
+  font-size: 0.9em;
+  /* border: 1px dotted red; */
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper a {
+  color: white;
+  text-decoration: none;
+  transition: color 2s;
+}
+
+.nav-link-wrapper a:hover {
+  color: yellow;
+}
