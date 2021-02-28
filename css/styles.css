@@ -15,6 +15,7 @@ body {
   justify-content: space-between;
   padding: 38px;
   background-color:lightslategray;
+  text-transform: uppercase;
 }
 
 .left-side {
@@ -31,7 +32,7 @@ body {
   height: 22px;
   font-size: 0.9em;
   /* border: 1px dotted red; */
-  text-transform: uppercase;
+
 }
 
 .nav-link-wrapper {
@@ -62,7 +63,7 @@ body {
 }
 
 .portfolio-item-wrapper {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .logo-wrapper {
@@ -71,5 +72,5 @@ body {
 }
 
 img {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
