@@ -55,7 +55,7 @@ body {
   color: yellow;
 }
 
-/* CONTENT STYLES:  */
+/* PORTFOLIO STYLES:  */
 
 .portfolio-items-wrapper {
   display: grid;
@@ -63,6 +63,7 @@ body {
 }
 
 .portfolio-item-wrapper {
+  position: relative;
   /* border: 1px solid black; */
 }
 
@@ -71,6 +72,27 @@ body {
   justify-content: center;
 }
 
-img {
-  /* border: 1px solid black; */
+.portfolio-img-background {
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 50%;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo-wrapper img {
+  width: 70%;
 }

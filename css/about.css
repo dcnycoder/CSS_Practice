@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  border: 1px solid black;
+}
+
+.box {
+  display: flex;
+  text-align: right;
+  text-justify: center;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.box1 {
+  background:green;
+  /* height: 90px;
+  width: 90px; */
+}
+
+.box2 {
+  background: blue;
+}
+
+.box3 {
+  background: red;
+}
+
+.box4 {
+  background: magenta;
+}
+
+.box5 {
+  background: yellow;
+}
+
+.box6 {
+  background: pink;
+}
