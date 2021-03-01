@@ -5,22 +5,30 @@ body {
 container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  flex-wrap:wrap;
   border: 1px solid black;
+  justify-content: space-around;
+  align-content:center;
+  align-items:baseline;
+  height: 100vh;
 }
 
 .box {
-  display: flex;
-  text-align: right;
-  text-justify: center;
-  height: 50px;
-  width: 50px;
+  /* display: flex; */
+  justify-content: center;
+  align-content: flex-end;
+  /* text-align: right;
+  text-justify: center; */
+  /* height: 90px;
+  width: 90px; */
   margin: 20px;
   font-size: 20px;
 }
 
 .box1 {
   background:green;
+  /* flex-basis: 600px; */
+  width: 600px;
   /* height: 90px;
   width: 90px; */
 }
@@ -31,6 +39,8 @@ container {
 
 .box3 {
   background: red;
+  height: 120px;
+  order: -1;
 }
 
 .box4 {
