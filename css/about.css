@@ -28,19 +28,23 @@ container {
 .box1 {
   background:green;
   /* flex-basis: 600px; */
-  width: 600px;
+  flex-basis: 100px;
+  flex-grow: 1;
+  flex-shrink: 100px;
+  /* width: 600px; */
   /* height: 90px;
   width: 90px; */
 }
 
 .box2 {
   background: blue;
+  flex-grow: 2;
+  flex-shrink: 3;
 }
 
 .box3 {
   background: red;
   height: 120px;
-  order: -1;
 }
 
 .box4 {
